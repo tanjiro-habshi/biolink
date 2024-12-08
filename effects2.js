@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const imgSrc = "https://lanyard.cnrad.dev/api/1279606951113658450?hideSpotify=false&hideActivity=false&hideBadges=false&hideTimestamp=false&hideDecoration=false&bg=00000&borderRadius=10px&idleMessage=Hi&theme=dark&hideStatus=false";
+    const imgSrc = "https://lanyard.cnrad.dev/api/1279606951113658450?hideSpotify=false&hideBadges=true&showDisplayName=true&hideDecoration=true&idleMessage=hi&theme=dark";
     const imgElement = document.getElementById('rpc');
     imgElement.src = imgSrc;
 });
