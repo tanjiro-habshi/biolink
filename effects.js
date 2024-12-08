@@ -61,7 +61,7 @@ typeWriter();
 
 document.addEventListener("DOMContentLoaded", function () {
 const elements = document.querySelectorAll('.typewriter');
-const texts = ["Create free tempmails on: https://mail.port.mom", "clarifed on discord", "I skid :3"];
+const texts = ["Create free tempmails on: https://mail.port.mom", "vellicent on discord", "I skid :3"];
 const typingSpeed = 100;
 const pauseDuration = 1000;
 let currentIndex = 0;
