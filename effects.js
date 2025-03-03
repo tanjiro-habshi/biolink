@@ -1,14 +1,3 @@
-function copyAddress(id) {
-    const svgElement = document.getElementById(id + 'Input');
-    const title = svgElement.getAttribute('title');
-
-    navigator.clipboard.writeText(title).then(() => {
-        alert('copied the discord to clipboard: @' + title);
-    }).catch(err => {
-        console.error('Failed to copy: ', err);
-    });
-}
-
 function removeOverlay() {
     var overlay = document.getElementById('overlay');
     var userpage = document.getElementById('user-page');
@@ -35,7 +24,7 @@ function toggleMusic() {
 
 document.addEventListener("DOMContentLoaded", () => {
     const prefix = "⠐ ";
-    const titleText = "sickotravv";
+    const titleText = "Sickotravv";
     let index = 0;
     let isDeleting = false;
 
